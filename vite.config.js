@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base:'/softdrinks-app/',
-  plugins: [react()]
- 
+  
+  plugins: [react()],
+  base:'/softdrinks-app/'
 })
