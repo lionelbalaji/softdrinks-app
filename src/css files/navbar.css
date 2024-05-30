@@ -1,0 +1,31 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 8px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 160px;
+    gap: 20px;
+}
+/******************************8MEDIA QUERIES FOR TABLETS*************************/
+@media screen and (max-width:1024px) {
+    
+}
+/****************************MEDIA QUERIES FOR SMALL DEVICES***********************/
+@media screen and (max-width:600px){
+       #navbarNavAltMarkup{
+        display: flex;
+        position: absolute;
+        right: 60px;
+        justify-content: space-between;
+       }
+}
