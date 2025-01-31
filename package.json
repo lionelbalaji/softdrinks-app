@@ -1,5 +1,6 @@
 {
   "name": "softdrinks-app",
+  "homepage":"https://lionelbalaji.io/softdrinks-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
